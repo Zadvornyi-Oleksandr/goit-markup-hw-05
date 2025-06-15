@@ -492,7 +492,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close {
+.modal-btn {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -511,13 +511,13 @@ img {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal-btn:hover,
+.modal-btn:focus {
   background-color: #404bbf;
   color: #ffffff;
 }
 
-.modal-close-icon {
+.modal-btn-icon {
   pointer-events: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
