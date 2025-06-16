@@ -458,6 +458,26 @@ img {
   color: #f4f4fd;
 }
 
+/*---footer-form-container---*/
+.footer-form-container {
+}
+
+.footer-modal-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.footer-main-form {
+  display: flex;
+}
+
+.footer-form-label {
+  gap: 24px;
+}
+
 /*----mod----*/
 .backdrop {
   width: 100%;
