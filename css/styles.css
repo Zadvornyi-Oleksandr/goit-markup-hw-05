@@ -472,10 +472,10 @@ img {
 }
 .footer-main-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-form-label {
-  gap: 24px;
 }
 
 .footer-input-email {
@@ -512,11 +512,11 @@ input::placeholder {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-
-  .footer-svg-icon {
-    margin-left: 16px;
-  }
 }
+.footer-svg-icon {
+  margin-left: 16px;
+}
+
 /*----model----*/
 
 .modal-overlay {
