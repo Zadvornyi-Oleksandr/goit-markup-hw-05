@@ -564,6 +564,7 @@ input::placeholder {
 }
 .modal-button:hover,
 .modal-button:focus {
+  background-color: #404bbf;
   border: none;
 }
 
@@ -573,7 +574,6 @@ input::placeholder {
 
 .icon-modal-close:hover,
 .icon-modal-close:focus {
-  background-color: #404bbf;
   fill: #ffffff;
 }
 
