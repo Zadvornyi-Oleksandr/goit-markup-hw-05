@@ -648,3 +648,19 @@ input::placeholder {
 .modal-textarea:focus {
   border-color: #4d5ae5;
 }
+
+.checkbox-box {
+  margin-bottom: 24px;
+}
+
+.input-field {
+  visually-hidden;
+}
+
+.label-text{
+  font-size: 12px; 
+  line-height: 1.17; 
+  letter-spacing: 0.04em;
+  
+
+}
