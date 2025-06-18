@@ -653,14 +653,8 @@ input::placeholder {
   margin-bottom: 24px;
 }
 
-.input-field {
-  visually-hidden;
-}
-
-.label-text{
-  font-size: 12px; 
-  line-height: 1.17; 
+.label-text {
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
-  
-
 }
