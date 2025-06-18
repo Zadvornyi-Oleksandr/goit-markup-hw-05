@@ -653,13 +653,15 @@ input::placeholder {
   margin-bottom: 24px;
 }
 
+:root {
+  --label-color: #8e8f99;
+}
+
 .label-text {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-}
-.label-text:root {
-  --label-color: #8e8f99;
+  color: var(--label-color);
 }
 
 .form-span {
@@ -674,4 +676,6 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.close-mark {
 }
