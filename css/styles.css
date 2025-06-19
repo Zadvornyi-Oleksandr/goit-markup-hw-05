@@ -667,6 +667,8 @@ input::placeholder {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--label-color);
+  display: flex;
+  align-items: center;
 }
 
 .custom-checkbox {
@@ -681,6 +683,13 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 16px;
+}
+
+.modal-check:checked + .label-text .custom-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .form-register {
