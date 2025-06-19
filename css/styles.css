@@ -669,7 +669,7 @@ input::placeholder {
   color: var(--label-color);
 }
 
-.form-span {
+.custom-checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
