@@ -707,12 +707,3 @@ input::placeholder {
 .label-link {
   color: #4d5ae5;
 }
-
-input[type="checkbox"]:checked + label .custom-checkbox {
-  background-color: var(--accent-color); /* #404bbf */
-  border: none;
-}
-
-input[type="checkbox"]:checked + label .custom-checkbox .checkmark-icon {
-  fill: var(--icon-fill-color); /* #F4F4FD */
-}
