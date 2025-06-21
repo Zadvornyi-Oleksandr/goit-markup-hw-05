@@ -683,7 +683,6 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  margin-right: 16px;
 }
 
 .modal-check:checked + .label-text .custom-checkbox {
